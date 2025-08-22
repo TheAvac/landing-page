@@ -13,7 +13,7 @@
     <header class="hero">
         <nav class="nav container">
             <h1 class="nav__logo">
-                Header Logo
+                TheAvac
             </h1>
 
             <ul class="nav__list">
@@ -27,8 +27,8 @@
             <article class="hero__text">
                 <h2 class="hero__title">This website is awesome</h2>
                 
-                <div class="hero__text">
-                    This website has some subtext that goes here under hte main title. It's a smaller font and the color is lower contrast.
+                <div class="hero__text--sec">
+                    This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
                 </div>
 
                 <button class="hero__button">Sign up</button>
@@ -42,31 +42,56 @@
         <section class="info">
              <h2 class="info__title">Some random information.</h2>
 
-            <figure class="info__figure">
-                <img src="#" class="info__figure__item" alt="img1">
-                <img src="#" class="info__figure__item" alt="img2">
-                <img src="#" class="info__figure__item" alt="img3">
-                <img src="#" class="info__figure__item" alt="img4">
-            </figure>           
+            <article class="info__figures">
+                <figure class="info__figure">
+                    <img src="./images/img1.png" class="info__figure__item" alt="img1">
+                    <div>So this is Mavuika</div>
+                </figure>
+                
+                <figure class="info__figure">
+                    <img src="./images/img2.png" class="info__figure__item" alt="img2">
+                    <div>So this is Arle's weapon</div>
+                </figure>
+
+                <figure class="info__figure">
+                    <img src="./images/img3.png" class="info__figure__item" alt="img3">
+                    <div>So this is Nahida</div>
+                </figure>
+
+                <figure class="info__figure">
+                    <img src="./images/img4.png" class="info__figure__item" alt="img4">
+                    <div>So this is Kagura's verity</div>
+                </figure>
+            </article>
+         
         </section>
 
 
         <section class="quote">
-            <div class="quote__text">
-                "Only one thing is equal for all, and that is Death."
+            <div class="quote__container">
+                <div class="quote__text">
+                    "Only one thing is equal for all, and that is Death."
+                </div>
+                <div class="quote__author">-Johan Liebert</div>                
             </div>
-            <div class="quote__author">Johan Liebert</div>
+
         </section>
         
         <section class="call-to-action">
-            <article class="call-to-action__text">
-                <div class="call-to-action__title">Call to action! It's time!</div>
+            <article class="call-to-action__container">
                 <div class="call-to-action__text">
-                    Sign up for our product by clicking that button right over there!
-                </div>                
+
+                    <div class="call-to-action__title">Call to action! It's time!</div>
+                    <div class="text">
+                        Sign up for our product by clicking that button right over there!
+                    </div>
+
+                               
+                </div>
+                <button class="hero__button call-to-action__button">Sign up</button>     
             </article>
 
-            <button class="call-to-action__button">Sign up</button>
+
         </section>
         
     </main>
